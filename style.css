@@ -1,0 +1,14 @@
+/*
+Theme Name: Digby
+Theme URI: http://digby.com/
+Author: Eric Baze and Daniel Delaney
+Author URI: http://ericbaze.com/
+Description: A Bootstrap 3.0-based template
+Version: 0.1
+*/
+
+@import 'css/bootstrap.css';
+@import 'css/bootstrap-glyphicons.css';
+@import 'css/font-awesome.css';
+@import 'css/custom.css';
+@import 'css/pages.css';

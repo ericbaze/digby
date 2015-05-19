@@ -1,0 +1,94 @@
+/* generic */
+html{background-color:#F4F4EC;}
+body{padding-top:50px;}
+header,h1,h2,h3,h4,h5,h6,.btn,.lead{font-family:gotham-web,"Helvetica Neue",Helvetica,Arial,sans-serif;}
+
+/* header */
+.navbar-default{background-color:#04B0CF;border-bottom-color:#0698B3;z-index:999;}
+header .logo{display:block;float:left;padding-top:0;padding-bottom:0;}
+header .logo img{display:block;height:36px;margin-top:7px;}
+.navbar-default .navbar-nav > li > a{color:#fff;text-shadow:none;}
+.navbar-default .navbar-nav > li > a:hover,.navbar-default .navbar-nav > .open > a,.navbar-default .navbar-nav > .open > a:hover,.navbar-default .navbar-nav > .open > a:focus,.navbar-default .navbar-toggle:hover,.navbar-default .active{background:#0794AD;color:#fff;}
+.navbar-default .navbar-form{border-color:#0794AD;}
+.navbar-form .form-control{border-right:0;border-color:#0698B3;}
+.navbar-form .btn-default{border-color:#0698B3;}
+.navbar-form i{color:#04B0CF;}
+.navbar-default .navbar-toggle{border-color:#fff;}
+.navbar-default .navbar-toggle .icon-bar{background-color:#fff;}
+.navbar-default .navbar-collapse{border-top-color:#0794AD;}
+.navbar-default .navbar-nav .open .dropdown-menu > li > a{color:#fff;}
+.navbar-default .navbar-nav > .dropdown > a .caret{border-top-color:#fff;border-bottom-color:#fff;}
+@media screen and (min-width:992px)
+{
+	.navbar-default .navbar-nav .open .dropdown-menu > li > a{color:#333;}
+	.navbar-form{padding-left:0;padding-right:0;width:153px;margin-right:-15px;}
+}
+
+/* index content */
+.value-prop{padding:1.5em;border-top:solid 1px #ccc;border-bottom:solid 1px #ccc;}
+.value-prop .icon-bar-chart{font-size:52px;color:#04B0CF;}
+.value-prop h2{color:#888;margin-top:0;margin-bottom:0;font-size:24px;}
+.value-prop h2 strong{color:#777;}
+#step-carousel{background:#f1f1e7;padding-top:1.5em;}
+#step-carousel .slider-title{margin:0;text-align:center;padding:1em 0 0 0;color:#F06543;font-size:33px;font-weight:bold;}
+#step-carousel .item{height:475px;}
+#step-carousel .item img{display:block;margin:0 auto;height:300px;}
+#step-carousel a{text-shadow:none;}
+#step-carousel a:hover{text-decoration:none;}
+#step-carousel a h2{color:#195188;}
+#step-carousel a p{color:#333;}
+#step-carousel .carousel-control{background:none!important;}
+#step-carousel .carousel-control .icon-prev,#step-carousel .carousel-control .icon-next{color:#F06543;font-size:60px;}
+.carousel-indicators li{border:1px solid #F06543;}
+.carousel-indicators .active{background:#F06543;margin:1px;width:10px;height:10px;}
+.featured-posts{padding-top:3em;padding-bottom:2em;}
+.featured-posts article{padding-bottom:2em;}
+.featured-posts h1{font-size:22px;line-height:1.3;}
+.featured-posts .visible-sm h1{margin-top:0;}
+.featured-posts h1 a{color:#04B0CF;}
+.featured-posts img{display:block;width:100%;}
+.featured-posts p{color:#666;}
+.partner-logos{display:none;border:solid 1px #ccc;border-right:0;border-left:0;padding:7px 0;}
+.partner-logos img{display:block;width:100%;}
+@media screen and (min-width:992px)
+{
+	#step-carousel br{display:none;}
+	#step-carousel .item{height:360px;}
+	#step-carousel .container{max-width:800px;}
+	#step-carousel .item img{float:right;}
+	#step-carousel .item .carousel-caption{position:static;display:block;text-align:left;padding-top:100px;}
+	.partner-logos{display:block;}
+}
+
+/* footer */
+footer{background-color:#F06543;color:#FFFFFF;}
+footer a{color:#57544E;}
+footer a:hover{color:#F06543;}
+footer .top-footer{padding:5px 0;}
+footer .questions .title{font-weight:bold;}
+footer .questions a{color:#fff;}
+footer .questions a:hover{opacity:0.5;}
+footer .social-buttons{margin-bottom:0;margin-top:3px;}
+footer .social-buttons a{color:#FFFFFF;font-size:24px;margin:0;}
+footer .social-buttons a:hover{opacity:0.5;text-decoration:none;}
+footer .sub-footer{padding-top:2em;padding-bottom:4em;background-color:#F4F4EC;color:#94928D;}
+.digby-logo{width:123px;margin-bottom:8px;}
+footer a.map-link{color:#F06543;}
+footer h4 a{color:#F06543;}
+.link-column{float:left;margin-right:41px;}
+.link-column:last-of-type{margin-right:0;}
+footer .text-muted{font-size:12px;margin-top:24px;}
+@media screen and (min-width:768px){
+	footer .questions{line-height:40px;}
+}
+
+/* custom fonts*/
+@font-face{font-family:'gotham-web';src:url('../fonts/gothamhtf-book-webfont.eot');src:url('../fonts/gothamhtf-book-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/gothamhtf-book-webfont.woff') format('woff'),url('../fonts/gothamhtf-book-webfont.ttf') format('truetype'),url('../fonts/gothamhtf-book-webfont.svg#gotham_htfbook') format('svg');font-weight:normal;font-style:normal;}
+@font-face{font-family:'gotham-web';src:url('../fonts/gothamhtf-bold-webfont.eot');src:url('../fonts/gothamhtf-bold-webfont.eot?#iefix') format('embedded-opentype'),url('../fonts/gothamhtf-bold-webfont.woff') format('woff'),url('../fonts/gothamhtf-bold-webfont.ttf') format('truetype'),url('../fonts/gothamhtf-bold-webfont.svg#gotham_htfbold') format('svg');font-weight:bold;font-style:normal;}
+
+/* selection color */
+::selection{color:#fff;background:#04B0CF;}
+::-moz-selection{color:#fff;background:#04B0CF;}
+
+/* wordpress admin bar */
+#wpadminbar{top:50px!important;z-index:99!important;}

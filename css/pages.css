@@ -1,0 +1,84 @@
+/* hero */
+.hero{background-size:cover;}
+.hero .container{padding-top:12em;padding-bottom:10em;}
+.hero h1{color:#fff;text-shadow:0 0.05em 0.1em rgba(0,0,0,0.5);font-weight:bold;margin-bottom:0.5em;max-width:480px;}
+.hero .lead{color:#fff;text-shadow:0 0.05em 0.1em rgba(0,0,0,0.5);}
+.index-page .hero{background-image:url(../images/hero.png);}
+.product .hero{background-image:url(../images/hero2.jpg);}
+.platform .hero{background-image:url(../images/platform.png);}
+.services .hero{background-image:url(../images/services.jpg);}
+.customers .hero{background-image:url(../images/customers.png);}
+.about .hero{background-image:url(../images/about.png);}
+.investors .hero{background-image:url(../images/investors.jpg);}
+.partners .hero{background-image:url(../images/partners.png);}
+.careers .hero{background-image:url(../images/jobs.jpg);}
+.events .hero{background-image:url(../images/events.png);}
+.contact .hero{background-image:url(../images/contact.jpg);}
+.news .hero{background-image:url(../images/news.jpg);}
+.blog .hero{background-image:url(../images/blog.jpg);}
+.features .hero{background-image:url(../images/features.jpg); background-position-y: -50px;}
+@media screen and (max-width:768px){
+	/* .index-page .hero{background-position-y:-75px;} */
+	.about .hero{background-position-y:-150px;}
+	.features .hero{background-position-y: 0px;}
+}
+@media screen and (max-width: 640px) {
+	.features .hero { background-position-x: -100px; }
+	}
+}
+
+/* buttons */
+.btn-lp-red{background:transparent;color:#F06543;border-color:#F06543;}
+.btn-lp-red:hover{background:#F06543;border-color:#F06543;color:#fff;}
+
+/* stripes */
+.stripe{padding-top:4em;padding-bottom:4em;}
+.stripe h2{color:#F06543;}
+.stripe h3{color:#195188;}
+.alt-stripe{background:#f1f1e7;}
+.alt-stripe p{opacity:0.9;}
+.first-of-stripe{margin-top:0;}
+.stripe p.lead{opacity:0.75;}
+
+/* product page */
+/* modules */
+.module-logo { height: 65px; float: left; margin-right: 10px; }
+.modules .btn{margin-top:1em;}
+/* what's different */
+.whats-different h2{margin-top:0;}
+.whats-different h3{font-size:20px;}
+.whats-different .icon-badge { display: block; background: #04B0CF; border-radius: 4px; text-align: center; padding: 25px 0; }
+.whats-different .icon-badge i { color: #fff; font-size: 55px; }
+
+/* services page */
+.services-strategy .icon-badge i { font-size: 100px; color: #FCBB64; margin-left: -20px; }
+.services-service h3 { font-size: 24px; }
+
+/*blog*/
+.blog aside ul{list-style:none;padding:0;}
+
+/* lead gen bar */
+body.modal-open, .modal-open .navbar-fixed-top, .modal-open .navbar-fixed-bottom{margin-right:0;}
+.lead-gen-bar{background:#fff;color:#666;padding:1em 0;border-top:solid 1px #ccc;border-bottom:solid 1px #ccc;box-shadow:0 0.25em 0.25em rgba(0,0,0,0.05);}
+.lead-gen-bar .btn-default{background-color:#04B0CF;border-color:#04B0CF;color:#fff;}
+.lead-gen-bar .lead{line-height:34px;margin-bottom:0;}
+/* initial state */
+.lead-gen-bar .regular-message{display:block;}
+.lead-gen-bar .success-message{display:none;}
+.lead-gen-bar .failure-message{display:none;}
+/* success state */
+.lead-gen-bar.success{background:#5cb85c;color:#fff;border-color:#4C994C;}
+.lead-gen-bar.success .regular-message{display:none;}
+.lead-gen-bar.success .success-message{display:block;}
+.lead-gen-bar.success .failure-message{display:none;}
+/* failure state */
+.lead-gen-bar.failure{background:#c00;}
+.lead-gen-bar.failure .regular-message{display:none;}
+.lead-gen-bar.failure .success-message{display:block;}
+.lead-gen-bar.failure .failure-message{display:none;}
+/* success and failure */
+.lead-gen-bar.success .btn-default,.lead-gen-bar.failure .btn-default{background:transparent;color:#fff;border-color:#fff;}
+
+@media screen and (min-width:992px){
+	.lead-gen-bar .btn{float:right;}
+}
